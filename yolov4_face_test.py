@@ -47,9 +47,9 @@ def YOLO():
     # weightPath = "yolov4.weights"#"./backup/yolov4_face_best.weights"
     # metaPath = "./cfg/coco.data"#"./data/obj.data"#"./cfg/coco.data"
 
-    configPath = "yolov4_face.cfg"#"./cfg/yolov4.cfg"
-    weightPath = "./backup/yolov4_face_final.weights"
-    metaPath = "./data/obj.data"#"./cfg/coco.data"
+    configPath = "swiftface.cfg"#"./cfg/yolov4.cfg"
+    weightPath = "swiftface.weights"
+    metaPath = "obj.data"#"./cfg/coco.data"
 
     if not os.path.exists(configPath):
         raise ValueError("Invalid config path `" +
